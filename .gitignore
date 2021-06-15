@@ -1,0 +1,3 @@
+*.css
+*.pyc
+db.sqlite3

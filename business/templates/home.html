@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for service in services_object_list %}
+        <p>{{service.sc_copies}}</p>
+        <p>{{service.hc_copies}}</p>
+        <p>{{service.lc_copies}}</p>
+        <p>{{service.cm}}</p>
+        <p>{{service.case_filing}}</p>
+        <p>{{service.adjournment}}</p>
+    {% endfor %}
+{% endblock %}
